@@ -23,3 +23,9 @@ pom.xml文件中的配置未生效，发现是远端导入Jackson包失败。
 
 ### 运行发现异常提示为Java xx版本不支持xxx
 发现是IDEA设置Java版本过低，需要手动设置
+
+<br/>
+
+### mysql 连接错误The server time zone value '??????
+**解决方法：**
+在连接字符串后面加上?serverTimezone=UTC
